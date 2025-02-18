@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Trekking Routes</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet"></script>
+</head>
+<body>
+    <div id="map" style="height: 100vh;"></div>
+
+    <script>
+        var map = L.map('map').setView([28.3949, 84.1240], 7);
+
+        // ✅ Corrected Esri Basemap
+        L.esri.Vector.vectorBasemapLayer("ArcGIS:Topographic").addTo(map);
+
+        // ✅ Load Nepal Boundary
+        fetch('nepal_boundary.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, { style: { color: 'red', weight: 2 } }).addTo(map);
+            })
+            .catch(error => console.error('Error loading Nepal boundary:', error));
+
+        // ✅ Load Trekking Routes
+        fetch('trekkingRoutes.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, { style: { color: 'blue', weight: 3 } }).addTo(map);
+            })
+            .catch(error => console.error('Error loading trekking routes:', error));
+
+        // ✅ Load POIs
+        fetch('pois.geojson')
+            .then(response => response.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    pointToLayer: (feature, latlng) => L.marker(latlng),
+                    onEachFeature: (feature, layer) => {
+                        if (feature.properties && feature.properties.name) {
+                            layer.bindPopup(feature.properties.name);
+                        }
+                    }
+                }).addTo(map);
+            })
+            .catch(error => console.error('Error loading POIs:', error));
+    </script>
+</body>
+</html>

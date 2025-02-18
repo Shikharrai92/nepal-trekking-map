@@ -1,0 +1,547 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-02-17T06:23:53Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/164979149",
+        "alt_name": "Sagarmatha;Chomolungma",
+        "alt_name:be": "гара Эверэст;гара Сагарматха",
+        "alt_name:en": "Mount Qomolangma",
+        "alt_name:ja": "聖母峰",
+        "alt_name:ko": "주무랑마봉;성모봉",
+        "alt_name:pl": "Czomolungma",
+        "alt_name:ru": "гора Эверест;гора Сагарматха",
+        "alt_name:uk": "гора Еверест;гора Саґарматха",
+        "alt_name:vi": "Thánh Mẫu Phong",
+        "alt_name:zh": "圣母峰;珠峰",
+        "alt_name:zh-Hans": "圣母峰;珠峰",
+        "alt_name:zh-Hant": "聖母峰",
+        "alt_name:zh-Latn-pinyin": "Shèngmǔfēng",
+        "check_date": "2024-10-16",
+        "ele": "8848.86",
+        "importance": "international",
+        "int_name": "Everest",
+        "isolation": "20000",
+        "name": "珠穆朗玛峰 ཇོ་མོ་གླང་མ། सगरमाथा",
+        "name:am": "ኤቨረስት ተራራ",
+        "name:an": "Everest",
+        "name:ar": "جبل إفرست",
+        "name:ast": "Everest",
+        "name:az": "Everest dağı",
+        "name:ba": "Джомолунгма",
+        "name:be": "Джамалунгма (Сагарматха)",
+        "name:bg": "Еверест",
+        "name:bh": "सगरमाथा",
+        "name:bn": "মাউন্ট এভারেস্ট",
+        "name:bo": "ཇོ་མོ་གླང་མ།",
+        "name:br": "Menez Everest",
+        "name:ca": "Everest",
+        "name:cs": "Everest",
+        "name:cy": "Mynydd Everest",
+        "name:de": "Mount Everest",
+        "name:dv": "އެވަރެސްޓް ފަރުބަދަ",
+        "name:el": "Έβερεστ",
+        "name:en": "Mount Everest",
+        "name:eo": "Ĉomolungmo",
+        "name:es": "Monte Everest",
+        "name:et": "Džomolungma",
+        "name:eu": "Everest",
+        "name:fa": "قله اورست",
+        "name:fr": "Everest",
+        "name:ga": "Sliabh Everest (Teomólungma)",
+        "name:gd": "Beinn Everest",
+        "name:gl": "Everest",
+        "name:gn": "Éverest",
+        "name:gu": "માઉન્ટ એવરેસ્ટ",
+        "name:he": "אוורסט",
+        "name:hi": "एवरेस्ट पर्वत",
+        "name:hu": "Csomolungma",
+        "name:hy": "Էվերեստ",
+        "name:id": "Gunung Everest",
+        "name:io": "Monto Everest",
+        "name:is": "Everestfjall",
+        "name:it": "Everest",
+        "name:ja": "エベレスト",
+        "name:ka": "ევერესტი",
+        "name:kk": "Джомолунгма",
+        "name:kn": "ಮೌಂಟ್ ಎವರೆಸ್ಟ್",
+        "name:ko": "에베레스트산",
+        "name:ku": "Çiyayê Everest",
+        "name:kw": "Menydh Everest",
+        "name:la": "Everestius mons",
+        "name:lt": "Džomolungma",
+        "name:lv": "Everests",
+        "name:mk": "Монт Еверест",
+        "name:ml": "ചോമോലുങ്മ കൊടുമുടി",
+        "name:mn": "Жомолунгма",
+        "name:mr": "एव्हरेस्ट",
+        "name:ms": "Gunung Everest",
+        "name:my": "ဧဝရတ်တောင်",
+        "name:ne": "सगरमाथा चुचुरो",
+        "name:nl": "Mount Everest",
+        "name:oc": "Mont Everest",
+        "name:or": "ମାଉଣ୍ଟ ଏଭରେଷ୍ଟ",
+        "name:os": "Джомолунгмæ",
+        "name:pa": "ਮਾਊਂਟ ਐਵਰੈਸਟ",
+        "name:pl": "Mount Everest",
+        "name:pt": "Monte Everest",
+        "name:qu": "Chomolungma",
+        "name:ro": "Everest",
+        "name:ru": "гора Джомолунгма (Сагарматха)",
+        "name:sa": "देवगिरि पर्वतः",
+        "name:si": "එවරස්ට් කන්ද",
+        "name:sk": "Mount Everest",
+        "name:sl": "Everest",
+        "name:sr": "Монт Еверест",
+        "name:sw": "Everest (mlima)",
+        "name:ta": "எவரெசுட்டு சிகரம்",
+        "name:te": "ఎవరెస్టు పర్వతం",
+        "name:th": "ยอดเขาเอเวอเรสต์",
+        "name:tk": "Jomolungma",
+        "name:tl": "Bundok Everest",
+        "name:tr": "Everest Dağı",
+        "name:tt": "Джомолунгма",
+        "name:ug": "ئېۋېرېست",
+        "name:uk": "гора Джомолунґма (Саґарматха)",
+        "name:ur": "ماؤنٹ ایورسٹ",
+        "name:vi": "Everest",
+        "name:yi": "עווערעסט",
+        "name:zh": "珠穆朗玛峰",
+        "name:zh-Hans": "珠穆朗玛峰",
+        "name:zh-Hant": "珠穆朗瑪峰",
+        "name:zh-Latn-pinyin": "Zhūmùlǎngmǎ Fēng",
+        "natural": "peak",
+        "note:ele": "2020-12-08 Height recently recalculated as 8848.86 meters. Rounded up to 8849.",
+        "note:position": "Location based on the average value of the 1992 and 2004 surveys carried out by Ev-K2-CNR. Accuracy is limited by the flatness of the summit and the fact that it is snow.",
+        "prominence": "8848.86",
+        "sorting_name:ru": "Джомолунгма (Сагарматха) гора",
+        "source:position": "Poretti, G. & Mandler, R. & Lipizer, M.. (2007). The GPS station at the Pyramid Geodetic Laboratory. Bollettino di Geofisica Teorica ed Applicata. 48. 25-32.",
+        "source:position:url": "https://bgo.ogs.it/sites/default/files/pdf/bgta48.1_PORETTI.pdf",
+        "source:prominence": "Highest point on Earth",
+        "summit:cross": "no",
+        "wikidata": "Q513",
+        "wikipedia": "zh:珠穆朗瑪峰",
+        "wikipedia:fr": "Everest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.92521,
+          27.9880614
+        ]
+      },
+      "id": "node/164979149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/289923681",
+        "ele": "8091",
+        "int_name": "Annapurna I",
+        "name": "अन्नपूर्ण",
+        "name:cs": "Annapurna",
+        "name:de": "Annapurna I",
+        "name:en": "Annapurna I",
+        "name:fa": "آناپورنا",
+        "name:it": "Annapurna I",
+        "name:ja": "アンナプルナⅠ",
+        "name:ml": "അന്നപൂർണ I",
+        "name:ne": "अन्नपूर्णा I",
+        "name:pt": "Annapurna I",
+        "name:ru": "Аннапурна I",
+        "name:zh": "安娜普纳",
+        "natural": "peak",
+        "note": "This is Annapurna's Main summit according to recent discussion.\n\nhttps://explorersweb.com/annapurna-shishapangma-trackers/",
+        "prominence": "2984",
+        "source:prominence": "8091-5107 (saddle close to Yakrushong La)",
+        "tourism": "viewpoint",
+        "wikidata": "Q159621",
+        "wikipedia": "en:Annapurna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8199199,
+          28.5958063
+        ]
+      },
+      "id": "node/289923681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/335376854",
+        "alt_name": "Lhotse",
+        "alt_name:de": "Lhozê",
+        "alt_name:en": "South Peak",
+        "ele": "8516",
+        "name": "洛子峰 ल्होत्से",
+        "name:be": "Лходзэ",
+        "name:bo": "ལྷོ་རྩེ",
+        "name:en": "Lhotse",
+        "name:ja": "ローツェ",
+        "name:ml": "ലോത്സെ കൊടുമുടി",
+        "name:ne": "ल्होत्से",
+        "name:ru": "гора Лхоцзе",
+        "name:sk": "Lhoce",
+        "name:zh": "洛子峰",
+        "name:zh-Latn-pinyin": "Luòzǐ Fēng",
+        "natural": "peak",
+        "prominence": "609",
+        "sorting_name:ru": "Лхоцзе гора",
+        "source:position": "SRTM-Version 3.0-SRTMGL1-Void Filled-10m",
+        "source:prominence": "8516-7907 (South Col)",
+        "wikidata": "Q168702",
+        "wikipedia": "en:Lhotse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9325045,
+          27.9619855
+        ]
+      },
+      "id": "node/335376854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/477904058",
+        "ele": "6814",
+        "image": "http://www.flickr.com/photos/zolashine/6969195644/sizes/l/in/photostream/",
+        "name": "Ama Dablam",
+        "name:ja": "アマ・ダブラム",
+        "name:zh": "阿玛达布拉姆",
+        "name:zh-Hans": "阿瑪達布朗",
+        "natural": "peak",
+        "prominence": "1074",
+        "source:prominence": "6814-5740 (Col at the E of Amphu Laptsa)",
+        "wikidata": "Q451697",
+        "wikipedia": "en:Ama Dablam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.8604289,
+          27.8621001
+        ]
+      },
+      "id": "node/477904058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/565159949",
+        "alt_name": "Pung Gyen;Kutang",
+        "ele": "8163",
+        "int_name": "Manaslu",
+        "name": "मनास्लु",
+        "name:cs": "Manáslu",
+        "name:en": "Manaslu",
+        "name:ja": "マナスル",
+        "name:ne": "मनास्लु",
+        "name:ru": "Манаслу",
+        "name:zh": "马纳斯卢峰",
+        "natural": "peak",
+        "prominence": "3092",
+        "source:prominence": "8163-5071 (saddle close to Larkya La)",
+        "westra_ref": "10006",
+        "wikidata": "Q170070",
+        "wikipedia": "en:Manaslu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5597284,
+          28.5499829
+        ]
+      },
+      "id": "node/565159949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/727090665",
+        "ele": "7219",
+        "name": "Annapurna South",
+        "natural": "peak",
+        "source": "Wikipedia",
+        "wikidata": "Q20190791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.8063433,
+          28.5183959
+        ]
+      },
+      "id": "node/727090665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1046602455",
+        "alt_name": "Larke Pass",
+        "ele": "5106",
+        "mountain_pass": "yes",
+        "name": "Larkya La",
+        "natural": "saddle",
+        "wikidata": "Q48734771",
+        "wikipedia": "en:Larkya La"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.5203134,
+          28.6639188
+        ]
+      },
+      "id": "node/1046602455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1326607409",
+        "check_date": "2024-10-16",
+        "ele": "8749",
+        "importance": "local",
+        "int_name": "South Summit",
+        "name": "珠穆朗玛南峰 ཇོ་མོ་གླང་མལྷོ། सगरमाथा दक्षिण",
+        "name:be": "Паўднёвы пік",
+        "name:bo": "ཇོ་མོ་གླང་མལྷོ།",
+        "name:en": "Everest South Peak",
+        "name:ja": "エベレスト南峰",
+        "name:ko": "에베레스트 산 남쪽 봉우리",
+        "name:ne": "सगरमाथा दक्षिण",
+        "name:ru": "гора Джомолунгма (Южный пик)",
+        "name:uk": "Південний пік",
+        "name:zh": "珠穆朗玛南峰",
+        "name:zh-Hans": "珠穆朗玛南峰",
+        "name:zh-Hant": "珠穆朗瑪南峰",
+        "natural": "peak",
+        "summit:cross": "no",
+        "wikidata": "Q21298740",
+        "wikipedia": "en:South Summit (Mount Everest)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.9251632,
+          27.9850323
+        ]
+      },
+      "id": "node/1326607409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2935181986",
+        "ele": "7555",
+        "int_name": "Annapurna III",
+        "name": "अन्नपूर्णा III",
+        "name:en": "Annapurna III",
+        "name:fa": "آناپورنا 3",
+        "name:ru": "Аннапурна III",
+        "natural": "peak",
+        "westra_ref": "10590",
+        "wikidata": "Q564576"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.9891091,
+          28.5853509
+        ]
+      },
+      "id": "node/2935181986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2966471204",
+        "ele": "7525",
+        "int_name": "Annapurna IV",
+        "is_in:country": "Nepal",
+        "name": "अन्नपूर्णा IV",
+        "name:en": "Annapurna IV",
+        "name:fa": "آناپورنا 4",
+        "name:ru": "Аннапурна IV",
+        "natural": "peak",
+        "westra_ref": "10591",
+        "wikidata": "Q20757620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0835623,
+          28.5368932
+        ]
+      },
+      "id": "node/2966471204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3588473785",
+        "ele": "7937",
+        "int_name": "Annapurna II",
+        "is_in:country": "Nepal",
+        "name": "अन्नपूर्णा II",
+        "name:en": "Annapurna II",
+        "name:fa": "آناپورنا 2",
+        "name:ru": "Аннапурна II",
+        "name:zh": "安娜普纳 II",
+        "natural": "peak",
+        "prominence": "2467",
+        "source:prominence": "7937-5470 (Col at the W)",
+        "westra_ref": "10013",
+        "wikidata": "Q449534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.1218222,
+          28.5349707
+        ]
+      },
+      "id": "node/3588473785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3667795253",
+        "ele": "7661",
+        "name": "Dhaulagiri IV",
+        "natural": "peak",
+        "westra_ref": "10533",
+        "wikidata": "Q31653016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.314379,
+          28.7357489
+        ]
+      },
+      "id": "node/3667795253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3667795257",
+        "ele": "7715",
+        "name": "Dhaulagiri III",
+        "natural": "peak",
+        "westra_ref": "10535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3771445,
+          28.7540263
+        ]
+      },
+      "id": "node/3667795257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3667795258",
+        "ele": "7751",
+        "name": "Dhaulagiri II",
+        "natural": "peak",
+        "prominence": "2381",
+        "source:prominence": "7751-5370 (French Pass)",
+        "westra_ref": "10024",
+        "wikidata": "Q1207614"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.3873786,
+          28.7631589
+        ]
+      },
+      "id": "node/3667795258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4462458037",
+        "alt_name:cs": "Káčaňdžunga;Zlatá Ganga",
+        "alt_name:en": "Kanchenjunga",
+        "ele": "8586",
+        "name": "Kangchenjunga",
+        "name:cs": "Kančendženga",
+        "name:de": "Kangchendzönga",
+        "name:en": "Kangchenjunga",
+        "name:hi": "कंचनजंघा",
+        "name:ja": "カンチェンジュンガ",
+        "name:kn": "ಕಾಂಚೆನಜುಂಗ",
+        "name:ko": "칸첸중가",
+        "name:ne": "कञ्चनजङ्घा",
+        "name:ru": "Канченджанга",
+        "name:sk": "Kančendžonga",
+        "name:zh": "干城章嘉峰",
+        "natural": "peak",
+        "prominence": "3922",
+        "source:prominence": "8586-4664 (col at the NE of Palie)",
+        "tourism": "viewpoint",
+        "wikidata": "Q82019",
+        "wikipedia": "en:Kangchenjunga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1474775,
+          27.7030109
+        ]
+      },
+      "id": "node/4462458037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12151324350",
+        "ele": "8476",
+        "name": "Kangchenjunga South",
+        "natural": "peak",
+        "source": "Finn Map",
+        "wikidata": "Q1723730",
+        "wikipedia": "en:Kangchenjunga South"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1540142,
+          27.6922768
+        ]
+      },
+      "id": "node/12151324350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12151324351",
+        "ele": "8473",
+        "name": "Kangchenjunga Central",
+        "natural": "peak",
+        "source": "Finn Map",
+        "wikidata": "Q1723729",
+        "wikipedia": "de:Kangchendzönga-Mittelgipfel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1508342,
+          27.6963369
+        ]
+      },
+      "id": "node/12151324351"
+    }
+  ]
+}
